@@ -14,3 +14,127 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/eGrdt-GuiAstYDBBFPR
 1680793402485	Marionette	INFO	Stopped listening on port 54514
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1680841739314	geckodriver	INFO	Listening on 127.0.0.1:52369
+1680841739806	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/pn/2hxyds457gz3df773045qrx40000gn/T/rust_mozprofilecLw1os"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680841740535	Marionette	INFO	Marionette enabled
+1680841740799	Marionette	INFO	Listening on port 52377
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 52377
+WebDriver BiDi listening on ws://127.0.0.1:52370
+1680841740974	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pn/2hxyds457gz3df773045qrx40000gn/T/rust_mozprofilecLw1os/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52370/devtools/browser/b944c496-aafb-4789-b719-f81ec933ebc3
+JavaScript warning: https://pagead2.googlesyndication.com/bg/eGrdt-GuiAstYDBBFPRlHe36qu4ukgnY6P6eKjFBaNs.js line 2 > eval line 5747 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680841881902	geckodriver	INFO	Listening on 127.0.0.1:52704
+1680841882415	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/pn/2hxyds457gz3df773045qrx40000gn/T/rust_mozprofile7kxkFT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680841882859	Marionette	INFO	Marionette enabled
+1680841883066	Marionette	INFO	Listening on port 52712
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:52705
+Read port: 52712
+1680841883271	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pn/2hxyds457gz3df773045qrx40000gn/T/rust_mozprofile7kxkFT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52705/devtools/browser/b102d2c6-82c9-4fd9-a855-28abffb3f9ef
+JavaScript warning: https://pagead2.googlesyndication.com/bg/eGrdt-GuiAstYDBBFPRlHe36qu4ukgnY6P6eKjFBaNs.js line 2 > eval line 4886 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680841981026	Marionette	INFO	Stopped listening on port 52712
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1680841983145	Marionette	INFO	Stopped listening on port 52377
+1680842057977	geckodriver	INFO	Listening on 127.0.0.1:52917
+1680842058487	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/pn/2hxyds457gz3df773045qrx40000gn/T/rust_mozprofile8WzAuW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680842058926	Marionette	INFO	Marionette enabled
+1680842059134	Marionette	INFO	Listening on port 52925
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:52918
+Read port: 52925
+1680842059291	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pn/2hxyds457gz3df773045qrx40000gn/T/rust_mozprofile8WzAuW/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52918/devtools/browser/1f2225ad-482f-4218-a213-50f6b963a50a
+JavaScript warning: https://pagead2.googlesyndication.com/bg/eGrdt-GuiAstYDBBFPRlHe36qu4ukgnY6P6eKjFBaNs.js line 2 > eval line 2999 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680842202827	geckodriver	INFO	Listening on 127.0.0.1:53044
+1680842203334	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/pn/2hxyds457gz3df773045qrx40000gn/T/rust_mozprofile5z3uud"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680842203775	Marionette	INFO	Marionette enabled
+1680842203983	Marionette	INFO	Listening on port 53050
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:53045
+Read port: 53050
+1680842204180	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pn/2hxyds457gz3df773045qrx40000gn/T/rust_mozprofile5z3uud/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53045/devtools/browser/e37bfada-fc17-4425-97b9-77ac03308f4a
+JavaScript warning: https://pagead2.googlesyndication.com/bg/eGrdt-GuiAstYDBBFPRlHe36qu4ukgnY6P6eKjFBaNs.js line 2 > eval line 7361 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680842282009	Marionette	INFO	Stopped listening on port 53050
+1680842284000	Marionette	INFO	Stopped listening on port 52925
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1680842305785	geckodriver	INFO	Listening on 127.0.0.1:53151
+1680842306300	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/pn/2hxyds457gz3df773045qrx40000gn/T/rust_mozprofileUY2fTT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680842306744	Marionette	INFO	Marionette enabled
+1680842306951	Marionette	INFO	Listening on port 53157
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:53152
+Read port: 53157
+1680842307177	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pn/2hxyds457gz3df773045qrx40000gn/T/rust_mozprofileUY2fTT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53152/devtools/browser/aa20db41-961d-4f9c-92f5-0537b3d2eeee
+JavaScript warning: https://pagead2.googlesyndication.com/bg/eGrdt-GuiAstYDBBFPRlHe36qu4ukgnY6P6eKjFBaNs.js line 2 > eval line 3972 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680842487965	geckodriver	INFO	Listening on 127.0.0.1:53339
+1680842488475	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/pn/2hxyds457gz3df773045qrx40000gn/T/rust_mozprofileJ4NmR1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680842488975	Marionette	INFO	Marionette enabled
+1680842489094	Marionette	INFO	Listening on port 53346
+Read port: 53346
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:53340
+1680842489268	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pn/2hxyds457gz3df773045qrx40000gn/T/rust_mozprofileJ4NmR1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53340/devtools/browser/25483638-5ca5-41e8-aa11-223eee348528
+JavaScript warning: https://pagead2.googlesyndication.com/bg/eGrdt-GuiAstYDBBFPRlHe36qu4ukgnY6P6eKjFBaNs.js line 2 > eval line 2216 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680842717408	geckodriver	INFO	Listening on 127.0.0.1:53503
+1680842717917	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/pn/2hxyds457gz3df773045qrx40000gn/T/rust_mozprofileu51OSJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680842718430	Marionette	INFO	Marionette enabled
+1680842718617	Marionette	INFO	Listening on port 53510
+Read port: 53510
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:53504
+1680842718822	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pn/2hxyds457gz3df773045qrx40000gn/T/rust_mozprofileu51OSJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53504/devtools/browser/2eb92f3d-a2f4-455f-9aa0-42c928420005
+JavaScript warning: https://pagead2.googlesyndication.com/bg/eGrdt-GuiAstYDBBFPRlHe36qu4ukgnY6P6eKjFBaNs.js line 2 > eval line 1902 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680842796779	Marionette	INFO	Stopped listening on port 53510
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1680842798503	Marionette	INFO	Stopped listening on port 53346
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1680842799415	Marionette	INFO	Stopped listening on port 53157
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1680843029944	geckodriver	INFO	Listening on 127.0.0.1:53673
+1680843030454	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/pn/2hxyds457gz3df773045qrx40000gn/T/rust_mozprofileGlL86m"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680843030898	Marionette	INFO	Marionette enabled
+1680843031118	Marionette	INFO	Listening on port 53679
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 53679
+WebDriver BiDi listening on ws://127.0.0.1:53674
+1680843031244	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pn/2hxyds457gz3df773045qrx40000gn/T/rust_mozprofileGlL86m/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53674/devtools/browser/31c3b8df-87e2-4abc-aeaf-516d984a373c
+JavaScript warning: https://pagead2.googlesyndication.com/bg/eGrdt-GuiAstYDBBFPRlHe36qu4ukgnY6P6eKjFBaNs.js line 2 > eval line 3017 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680843114245	Marionette	INFO	Stopped listening on port 53679
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

@@ -3,10 +3,26 @@ from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
 import requests
 import datetime
+import openai
+
+openai.api_key = ""
 
 # issues:
 # 在markets網址中，參雜了開頭為policy, business的類別
-# 0406筆記 試著寫入txt，並開始做翻譯
+# 0407筆記，開始翻譯並寫入txt
+# 0407筆記，試著用Openai翻譯後，發現限制太多，無法順利進行，故開始考慮轉換到Google translation v3
+
+def translate_text(prompt):
+  response = openai.Completion.create(
+    model="text-davinci-003",
+    prompt=prompt,
+    temperature=0.3,
+    max_tokens=1000,
+    top_p=1.0,
+    frequency_penalty=0.0,
+    presence_penalty=0.0
+  )
+  return response.choices[0].text.strip()
 
 market_url = 'https://www.coindesk.com/markets/'
 driver = webdriver.Firefox()
@@ -46,13 +62,20 @@ for i in range(len(urls)):
     contents = soup.find_all('div', 'common-textstyles__StyledWrapper-sc-18pd49k-0 eSbCkN')
     paragraph=''
     for i in contents:
-        content = i.find('div', 'typography__StyledTypography-owin6q-0 bYmaON at-text').text
-        if 'Read more:' in content: 
-            paragraph = content.split('Read more:')[0]
+        paragraph = i.find('div', 'typography__StyledTypography-owin6q-0 bYmaON at-text').text
+        if 'Read more:' in paragraph: 
+            paragraph = paragraph.split('Read more:')[0]
             print(paragraph)
-        elif 'UPDATE (' in content:
-            paragraph = content.split('UPDATE (')[0]
+        elif 'UPDATE (' in paragraph:
+            paragraph = paragraph.split('UPDATE (')[0]
+            print(paragraph)
+        elif 'Read the full story here:' in paragraph:
+            paragraph = paragraph.split('Read the full story')[0]
             print(paragraph)
         else:
-            print(content)
+            print(paragraph)
     print('-'*30)
+
+
+result = translate_text(f'translate to traditional chinese: 標題{title}\n\n內文{paragraph}')
+print(result)
